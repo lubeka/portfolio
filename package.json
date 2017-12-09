@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/lubeka/web-project#readme",
   "dependencies": {
+    "ejs": "^2.5.7",
     "express": "^4.16.2",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
