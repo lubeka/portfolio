@@ -1,1 +1,8 @@
+// root file
 @import 'config';
+@import '~bootstrap/scss/bootstrap';
+
+.type--headline {
+    font-size: 50px;
+    line-height: 83px;
+}

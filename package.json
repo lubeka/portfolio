@@ -18,13 +18,17 @@
   },
   "homepage": "https://github.com/lubeka/web-project#readme",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "css-loader": "^0.28.7",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "node-sass": "^4.7.2",
     "node-sass-middleware": "^0.11.0",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+require('../sass/style.scss');
+//import 'bootstrap';
 
 import App from './components/App';
 
