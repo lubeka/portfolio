@@ -2,7 +2,56 @@
 @import 'config';
 @import '~bootstrap/scss/bootstrap';
 
+body {
+    background: #fff7eb;
+}
+
+.panel-1 {
+    height: 100vh;
+    margin-bottom: 100vh;
+    background-image: url("../img/panel-1-back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
 .type--headline {
     font-size: 50px;
     line-height: 83px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-background {
+    position: absolute;
+    top: -54px;
+    z-index: 1;
+    opacity: 0.7;
+
+    img {
+        position: relative;
+        left: -6px;
+        max-width: 500px;
+    }
+}
+
+.navbar-brand {
+    z-index: 2;
+    color: $white;
+    text-shadow: 0 0 8px rgba(226, 19, 19, 0.5);
+}
+
+.nav {
+    z-index: 2;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: $nav-link-color;
+    font-size: $nav-link-size;
+
+    &:hover {
+        color: $nav-link-color-hover;
+    }
 }

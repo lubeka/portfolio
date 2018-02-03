@@ -1,20 +1,14 @@
 import React from 'react';
-import Header from './Header';
+import panel1 from './panel/panel1';
 
 class App extends React.Component {
-  state = {
-    pageHeader: 'Reacting'
-  };
-  render() {
-    return (
-      <div className="App">
-        <Header message={this.state.pageHeader} />
-        <div>
-          ...
-        </div>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="App">
+                <panel1 />
+            </div>
+        );
+    }
 }
 
 export default App;
